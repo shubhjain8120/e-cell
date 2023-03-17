@@ -1,0 +1,105 @@
+.service {
+  background-color: #2d2e2d;
+}
+.container5 {
+  max-width: 941px;
+  margin: 0 auto;
+  overflow: auto;
+  padding: 0 40px;
+}
+.about1 {
+  color: white;
+  letter-spacing: 5px;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.line {
+  padding-bottom: 20px;
+}
+.line .thick {
+  background-color: #a69494;
+  height: 10px;
+  width: 40%;
+}
+.line .thin {
+  background-color: #a69494;
+  height: 1px;
+}
+.flex2{
+  flex-direction: column;
+}
+.align h1{
+  text-align: left;
+}
+.para{
+  padding: 70px;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+}
+.booking{
+  background-color: #5a363a;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20PX;
+}
+.booking .image{
+  height :100%;
+}
+.booking .image img{
+  height: 100%;
+  width: 100%;
+  padding-right: 0;
+}
+.button1 {
+  background-color: none;
+  border: 1px solid #e8c061;
+  color: #e8c061;
+  padding: 8px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font-weight: 700;
+}
+.text1 {
+  padding: 36px;
+  color: white;
+  align-items: center;
+  text-align: center;
+}
+.text1 h1{
+  letter-spacing: 5px;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 1.2;
+  padding-bottom: 14px;
+}
+.text1 p{
+  font-weight: 200;
+  font-size: 16px;
+  padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+@media (max-width: 900px){
+  .service .about1{
+    padding-top: 30px;
+  }
+  .para{
+    padding: 15px;
+  }
+  .booking{
+    display: flex;
+    flex-direction: column;
+  }
+}

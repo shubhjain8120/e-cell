@@ -1,0 +1,37 @@
+.aboutus {
+  background-color: #2d2e2d;
+}
+.containera {
+  max-width: 1100px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 40px;
+}
+.aboutus .about1 {
+  font-size: 38px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.containera p {
+  color: white;
+  font-weight: 300;
+  padding: 38px;
+}
+@media (max-width: 700px) {
+  .containera {
+    padding: 0;
+  }
+  .containera p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .aboutus .about1 {
+    font-size: 22px;
+  }
+}
+@media (max-width: 480px){
+    .containera .showcase-text1{
+        padding-left: 37px;
+        padding-right: 37px;
+    }
+}
